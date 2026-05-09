@@ -1,6 +1,6 @@
 ---
 name: code-governance-guard
-description: Enforce global coding guardrails for the current conversation when Codex writes, edits, reviews, refactors, tests, builds, or executes code-related commands. Use for git rollback safety, delete-command confirmation, database destructive-operation prevention, Chinese mojibake repair without Unicode escaping, Alibaba coding standards, redundancy cleanup, and frontend work that must follow ui-ux-pro-max quality rules.
+description: Code governance and compliance guardrails for Codex coding work. Use when the user asks Codex to write, modify, fix, refactor, review, test, build, run, or execute code-related commands. Trigger phrases include "检查代码治理", "扫描合规性问题", "架构验证", "安全策略检查", "代码治理检查", "合规扫描", "代码安全检查", "修复中文乱码", "阿里编码规范", "清理冗余代码", "回滚前备份", "删除前确认", and "数据库危险操作检查". Enforce git rollback safety, delete-command confirmation, database destructive-operation prevention, readable Chinese text without Unicode escaping, Alibaba coding standards, redundancy cleanup, strongest available verification after changes, and frontend work that must follow ui-ux-pro-max quality rules.
 ---
 
 # Code Governance Guard
