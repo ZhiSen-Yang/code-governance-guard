@@ -1,0 +1,30 @@
+{
+  "name": "code-governance-guard",
+  "version": "0.1.0",
+  "description": "Codex skill for code governance, safety guardrails, Chinese encoding, Alibaba coding standards, and frontend UI quality.",
+  "type": "commonjs",
+  "bin": {
+    "code-governance-guard": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skill",
+    "README.md"
+  ],
+  "scripts": {
+    "install-skill": "node bin/cli.js install",
+    "dry-run": "node bin/cli.js install --dry-run",
+    "check": "node bin/cli.js install --dry-run --path ./.tmp-skills"
+  },
+  "keywords": [
+    "codex",
+    "skill",
+    "code-governance",
+    "safety",
+    "alibaba"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Governance Guard"
+  short_description: "Adds coding safety, rollback, delete, database, Chinese text, Alibaba style, and frontend UI guardrails."
+  default_prompt: "Use $code-governance-guard while modifying this codebase so all coding safety, style, deletion, database, Chinese text, and frontend UI guardrails stay active."
+
+policy:
+  allow_implicit_invocation: true
